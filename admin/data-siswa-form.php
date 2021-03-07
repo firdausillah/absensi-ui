@@ -13,8 +13,8 @@
                             <input type="text" name="name" class="form-control" id="inputName4" placeholder="Nama Lengkap">
                         </div>
                         <div class="mb-3 col-md-6">
-                            <label class="form-label" for="inputNomorInduk4">Nomor Induk</label>
-                            <input type="text" name="induk" class="form-control" id="inputNomorInduk4" placeholder="Nomor Induk">
+                            <label class="form-label" for="inputTelfon4">Nomor Telfon</label>
+                            <input type="text" name="telfon" class="form-control" id="inputTelfon4" placeholder="Nomor Telfon">
                         </div>
                     </div>
                     <div class="row">
@@ -28,13 +28,17 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="mb-3 col-md-6">
-                            <label class="form-label" for="inputMapel4">Mata Pelajaran</label>
-                            <input type="text" name="mapel" class="form-control" id="inputMapel4" placeholder="Pisahkan dengan koma ex. Matematika, Seni Budaya">
+                        <div class="mb-3 col-md-4">
+                            <label class="form-label" for="inputKelas4">Kelas</label>
+                            <input type="text" name="kelas" class="form-control" id="inputKelas4" placeholder="Kelas">
                         </div>
-                        <div class="mb-3 col-md-6">
-                            <label class="form-label" for="inputTelfon4">Nomor Telfon</label>
-                            <input type="text" name="telfon" class="form-control" id="inputTelfon4" placeholder="Nomor Telfon">
+                        <div class="mb-3 col-md-4">
+                            <label class="form-label" for="inputprogli4">Program Keahlian</label>
+                            <input type="text" name="progli" class="form-control" id="inputprogli4" placeholder="Program Keahlian">
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <label class="form-label" for="inputTglLahir4">Tanggal Lahir</label>
+                            <input type="date" name="tgl_lahir" class="form-control" id="inputTglLahir4" placeholder="Tanggal Lahir">
                         </div>
                     </div>
                     <div class="mb-3">

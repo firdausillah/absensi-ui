@@ -14,9 +14,9 @@
     $title = $get_title[3]; ?>
     <title>Admin | <?= ($title == '' or $title == 'index.php') ? 'Dashboard' : $title ?></title>
 
+    <link href="../assets/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link href="../assets/css/app.css" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.23/datatables.min.css" />
 </head>
 
 <body>

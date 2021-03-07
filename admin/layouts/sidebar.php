@@ -1,7 +1,7 @@
 <nav id="sidebar" class="sidebar">
     <div class="sidebar-content js-simplebar">
-        <a class="sidebar-brand" href="index.php">
-            <span class="align-middle">AdminKit</span>
+        <a class="sidebar-brand text-center" href="index.php">
+            <span class="align-middle">Admin</span>
         </a>
 
         <ul class="sidebar-nav">

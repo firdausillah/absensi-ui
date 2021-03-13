@@ -5,6 +5,9 @@
 <div class="row">
     <div class="col-12">
         <div class="card">
+            <div class="card-header">
+                <h5 class="card-title"><strong>Form Data Siswa</strong></h5>
+            </div>
             <div class="card-body">
                 <form>
                     <div class="row">
@@ -18,23 +21,34 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="mb-3 col-md-6">
+                        <div class="mb-3 col-md-4">
                             <label class="form-label" for="inputUsername">Username</label>
                             <input type="text" name="username" class="form-control" id="inputUsername" placeholder="Username">
                         </div>
-                        <div class="mb-3 col-md-6">
+                        <div class="mb-3 col-md-4">
                             <label class="form-label" for="inputPassword4">Password</label>
                             <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        </div>
+                        <div class="mb-3 col-md-4">
+                            <label class="form-label" for="inputInduk4">Nomor Induk</label>
+                            <input type="number" name="induk" class="form-control" id="inputInduk4" placeholder="Nomor Induk">
                         </div>
                     </div>
                     <div class="row">
                         <div class="mb-3 col-md-4">
                             <label class="form-label" for="inputKelas4">Kelas</label>
-                            <input type="text" name="kelas" class="form-control" id="inputKelas4" placeholder="Kelas">
+                            <select class="form-control" name="kelas" id="">
+                                <option value="X">X</option>
+                                <option value="XI">XI</option>
+                            </select>
                         </div>
                         <div class="mb-3 col-md-4">
                             <label class="form-label" for="inputprogli4">Program Keahlian</label>
-                            <input type="text" name="progli" class="form-control" id="inputprogli4" placeholder="Program Keahlian">
+                            <select class="form-control" name="program-keahlian" id="">
+                                <option value="MM">Multimedia</option>
+                                <option value="ASKEP">Asisten Keperawatan</option>
+                                <option value="AKL">Akuntansi dan Keuangan Lembaga</option>
+                            </select>
                         </div>
                         <div class="mb-3 col-md-4">
                             <label class="form-label" for="inputTglLahir4">Tanggal Lahir</label>

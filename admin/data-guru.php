@@ -26,14 +26,14 @@
                     </div>
                 </div>
             </div>
-            <div class="table-responsive">
+            <div class="table-responsive m-4">
                 <table class="table mb-0 table-hover" id="example1">
                     <thead>
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Nama</th>
                             <th scope="col">Gambar</th>
-                            <th scope="col">Username</th>
+                            <th scope="col">Wali Kelas</th>
                             <th scope="col">Status</th>
                             <th scope="col">Action</th>
                         </tr>
@@ -43,7 +43,7 @@
                             <th><input type="checkbox" name="checked[]" class="form-check-input"></th>
                             <td><a href="data-guru-detail.php" style="color:#495057">Andi Wijaya</a></td>
                             <td><img src="../assets/img/avatars/avatar.jpg" height="60px" alt="../assets/img/avatars/avatar.jpg"></td>
-                            <td>andiwijaya</td>
+                            <td>X Multimedia</td>
                             <td>
                                 <div class="form-check form-switch">
                                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
@@ -64,7 +64,7 @@
                             <th><input type="checkbox" name="checked[]" class="form-check-input"></th>
                             <td><a href="data-guru-detail.php" style="color:#495057">Arif Brata</a></td>
                             <td><img src="../assets/img/avatars/avatar-2.jpg" height="60px" alt="../assets/img/avatars/avatar-2.jpg"></td>
-                            <td>arif123</td>
+                            <td>-</td>
                             <td>
                                 <div class="form-check form-switch">
                                     <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">

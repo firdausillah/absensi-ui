@@ -14,13 +14,12 @@
                     <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Dashboard</span>
                 </a>
             </li>
-            <li class="sidebar-item <?= ($title == 'data-kelas.php' or $title == 'data-program-keahlian.php' or $title == 'data-jam-absen-guru.php' or $title == 'jadwal-pelajaran-form.php' or $title == 'data-sekolah-form.php' or $title == 'data-jam-absen-guru.php' or $title == 'data-jam-absen-siswa.php') ? 'active' : '' ?>">
+            <li class="sidebar-item <?= ($title == 'data-kelas.php' or $title == 'data-jam-absen-guru.php' or $title == 'jadwal-pelajaran-form.php' or $title == 'data-sekolah-form.php' or $title == 'data-jam-absen-guru.php' or $title == 'data-jam-absen-siswa.php') ? 'active' : '' ?>">
                 <a data-target="#ui" data-toggle="collapse" class="sidebar-link collapsed" aria-expanded="false">
                     <i class="align-middle" data-feather="settings"></i> <span class="align-middle">Master Data</span>
                 </a>
-                <ul id="ui" class="sidebar-dropdown list-unstyled collapse <?= ($title == 'data-kelas.php' or $title == 'data-program-keahlian.php' or $title == 'data-jam-absen-guru.php' or $title == 'jadwal-pelajaran-form.php' or $title == 'data-sekolah-form.php' or $title == 'data-jam-absen-guru.php' or $title == 'data-jam-absen-siswa.php') ? 'show' : '' ?>" data-parent="#sidebar" style="">
+                <ul id="ui" class="sidebar-dropdown list-unstyled collapse <?= ($title == 'data-kelas.php' or $title == 'data-jam-absen-guru.php' or $title == 'jadwal-pelajaran-form.php' or $title == 'data-sekolah-form.php' or $title == 'data-jam-absen-guru.php' or $title == 'data-jam-absen-siswa.php') ? 'show' : '' ?>" data-parent="#sidebar" style="">
                     <li class="sidebar-item <?= $title == 'data-kelas.php' ? 'active' : '' ?>"><a class="sidebar-link" href="data-kelas.php">Kelas</a></li>
-                    <li class="sidebar-item <?= $title == 'data-program-keahlian.php' ? 'active' : '' ?>"><a class="sidebar-link" href="data-program-keahlian.php">Program Keahlian</a></li>
                     <li class="sidebar-item <?= $title == 'data-jam-absen-guru.php' ? 'active' : '' ?>"><a class="sidebar-link" href="data-jam-absen-guru.php">Jam Absen Guru</a></li>
                     <li class="sidebar-item <?= $title == 'data-jam-absen-siswa.php' ? 'active' : '' ?>"><a class="sidebar-link" href="data-jam-absen-siswa.php">Jam Absen Siswa</a></li>
                     <li class="sidebar-item <?= $title == 'jadwal-pelajaran-form.php' ? 'active' : '' ?>"><a class="sidebar-link" href="jadwal-pelajaran-form.php">Jadwal Pelajaran</a></li>

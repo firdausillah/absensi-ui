@@ -16,7 +16,7 @@
                     </div>
                     <div class="mb-3">
                         <label class="form-label">Nama Kelas</label>
-                        <input type="text" class="form-control" placeholder="Kelas">
+                        <input type="text" class="form-control" placeholder="Kelas Jurusan">
                     </div>
                     <a href="#" type="submit" class="btn btn-primary">Submit</a>
                     <a href="data-guru.php" class="btn btn-success">Kembali</a>

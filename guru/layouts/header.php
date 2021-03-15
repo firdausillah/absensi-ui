@@ -9,7 +9,7 @@
     <meta name="author" content="AdminKit">
     <meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
-    <link rel="shortcut icon" href="../assets/img/icons/icon-48x48.png" />
+    <link rel="shortcut icon" href="../assets/img/icons/logo-absenin-sm.png" />
     <?php $get_title = explode('/', $_SERVER['REQUEST_URI']);
     $title = $get_title[3]; ?>
     <title>Guru | <?= ($title == '' or $title == 'index.php') ? 'Dashboard' : $title ?></title>

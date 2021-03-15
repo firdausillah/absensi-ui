@@ -16,30 +16,44 @@
                 <a href="data-guru-form.php" class="btn btn-primary btn-sm">Update Profile</a>
             </div>
             <hr class="my-0">
-            <div class="card-body">
+            <div class="card-body bg-light">
                 <h5 class="h6 card-title">Absensi Bulan ini</h5>
-                <table>
-                    <tr>
-                        <th>Hadir</th>
-                        <td>:</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <th>Izin</th>
-                        <td>:</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <th>Sakit</th>
-                        <td>:</td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <th>Tanpa Keterangan</th>
-                        <td>:</td>
-                        <td>5</td>
-                    </tr>
-                </table>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card bg-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title font-weight-bold">Hadir</h5>
+                                <span class="badge bg-success">15</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card bg-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title font-weight-bold">Alfa</h5>
+                                <span class="badge bg-dark">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card bg-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title font-weight-bold">Izin</h5>
+                                <span class="badge bg-warning">1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card bg-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title font-weight-bold">Sakit</h5>
+                                <span class="badge bg-warning">2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <hr class="my-0">
             <div class="card-body">

@@ -18,7 +18,7 @@
                                         <option value="x-mm">X Multimedia</option>
                                         <option value="xi-mm">XI Multimedia</option>
                                     </select>
-                                    <input type="date" class="form-control" aria-label="Date" aria-describedby="button-addon2">
+                                    <input type="month" value="<?= date('Y-m'); ?>" class="form-control" aria-label="Date" aria-describedby="button-addon2">
                                     <div class="input-group-append">
                                         <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
                                     </div>
@@ -39,7 +39,7 @@
                                     <option value="x-mm">X Multimedia</option>
                                     <option value="xi-mm">XI Multimedia</option>
                                 </select>
-                                <input type="date" class="form-control" aria-label="Date" aria-describedby="button-addon2">
+                                <input type="month" value="<?= date('Y-m'); ?>" class="form-control" aria-label="Date" aria-describedby="button-addon2">
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
                                 </div>

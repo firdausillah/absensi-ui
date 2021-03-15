@@ -14,8 +14,7 @@
                         <div class="col-6">
                             <div class="text-right">
                                 <div class="input-group">
-                                    <input type="date" class="form-control" aria-label="Date" aria-describedby="button-addon2">
-                                    <div class="input-group-append">
+                                    <input type="month" value="<?= date('Y-m'); ?>" class="form-control" aria-label="Date" aria-describedby="button-addon2">                                    <div class="input-group-append">
                                         <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
                                     </div>
                                     <a href="#" class="ml-2 btn btn-success"><i class="align-middle mr-2" data-feather="printer"></i>Print</a>
@@ -31,8 +30,7 @@
                         </div>
                         <div class="text-center col-12">
                             <div class="input-group">
-                                <input type="date" class="form-control" aria-label="Date" aria-describedby="button-addon2">
-                                <div class="input-group-append">
+                                <input type="month" value="<?= date('Y-m'); ?>" class="form-control" aria-label="Date" aria-describedby="button-addon2">                                <div class="input-group-append">
                                     <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
                                 </div>
                                 <a href="#" class="ml-2 btn btn-success btn-sm"><i class="align-middle" data-feather="printer"></i></a>

@@ -18,7 +18,10 @@
                         <div class="mb-3 col-md-6">
                             <label class="form-label">Level</label>
                             <select class="form-control" name="level" id="level">
-                                <option value="admin">admin</option>
+                                <option value="Admin">Admin</option>
+                                <option value="Admin">Kepala Sekolah</option>
+                                <option value="Guru">Guru</option>
+                                <option value="Siswa">Siswa</option>
                             </select>
                         </div>
                     </div>

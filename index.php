@@ -15,51 +15,92 @@
     <link href="assets/datatables/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link href="assets/css/app.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/util.css" rel="stylesheet">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 
 <body class="bg-login">
-    <main class="d-flex w-100 h-100">
-        <div class="container d-flex flex-column">
-            <div class="row vh-100">
-                <div class="col-sm-10 col-md-8 col-lg-6 mx-auto d-table h-100">
-                    <div class="d-table-cell align-middle">
-
-                        <div class="text-center mt-4">
-                        </div>
-
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="m-sm-4">
-                                    <div class="text-center mb-3">
-                                        <img src="assets/img/icons/absen-in.png" alt="Absen-In" class="img-fluid" width="150">
-                                    </div>
-                                    <form>
-                                        <div class="mb-3 mt-5">
-                                            <h1>Login</h1>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label">Email</label>
-                                            <input class="form-control form-control-lg" type="email" name="email" placeholder="Enter your email">
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label">Password</label>
-                                            <input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password">
-                                        </div>
-                                        <div class="text-center mt-3">
-                                            <a href="admin" class="btn btn-lg btn-primary btn-block btn-pill">Sign in</a>
-                                            <!-- <button type="submit" class="btn btn-lg btn-primary">Sign in</button> -->
-                                        </div>
-                                    </form>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="animated flipInX wrap-login100" style="padding-top:30px">
+                <div id="formlogin" action="ceklogin.php" class="login100-form validate-form">
+                    <span class="animated infinite pulse delay-5s login100-form-title p-b-26 ">
+                        <img src="assets/img/icons/absen-in.png" style="max-height:80px" class="img-responsive" alt="Responsive image">
+                    </span>
+                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-center active" id="form-siswa-tab" data-toggle="tab" href="#form-siswa" role="tab" aria-controls="form-siswa" aria-selected="true">
+                                <img class="mb-2" src="assets/img/icons/siswa.png" height="70" alt="siswa">
+                                <h5>SISWA</h5>
+                            </a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <a class="nav-link text-center" id="form-guru-tab" data-toggle="tab" href="#form-guru" role="tab" aria-controls="form-guru" aria-selected="false">
+                                <img class="mb-2" src="assets/img/icons/guru.png" height="70" alt="guru">
+                                <h5>GURU</h5>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content mt-3" id="myTabContent">
+                        <div class="tab-pane fade show active" id="form-siswa" role="tabpanel" aria-labelledby="form-siswa-tab">
+                            <form action="">
+                                <div class="wrap-input100 validate-input" data-validate="Enter Username" required="">
+                                    <input class="input100" type="text" name="username" autocomplete="off">
+                                    <span class="focus-input100" data-placeholder="Username"></span>
                                 </div>
-                            </div>
-                        </div>
+                                <div class="wrap-input100 validate-input" data-validate="Enter password">
+                                    <span class="btn-show-pass">
+                                        <i class="zmdi zmdi-eye"></i>
+                                    </span>
+                                    <input class="input100" type="password" name="password">
+                                    <span class="focus-input100" data-placeholder="Password"></span>
+                                </div>
 
+                                <div class="container-login100-form-btn">
+                                    <div class="wrap-login100-form-btn">
+                                        <div class="login100-form-bgbtn"></div>
+                                        <button class="login100-form-btn">
+                                            Login
+                                        </button>
+                                    </div>
+                                    <p><small>Support By X-Candy CBT v2.9.2 r1</small></p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane fade" id="form-guru" role="tabpanel" aria-labelledby="form-guru-tab">
+                            <form id="form-guru" action="">
+                                <div class="wrap-input100 validate-input" data-validate="Enter Username" required="">
+                                    <input class="input100" type="text" name="username" autocomplete="off">
+                                    <span class="focus-input100" data-placeholder="Username"></span>
+                                </div>
+                                <div class="wrap-input100 validate-input" data-validate="Enter password">
+                                    <span class="btn-show-pass">
+                                        <i class="zmdi zmdi-eye"></i>
+                                    </span>
+                                    <input class="input100" type="password" name="password">
+                                    <span class="focus-input100" data-placeholder="Password"></span>
+                                </div>
+
+                                <div class="container-login100-form-btn">
+                                    <div class="wrap-login100-form-btn">
+                                        <div class="login100-form-bgbtn"></div>
+                                        <button class="login100-form-btn">
+                                            Login
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
                     </div>
+
+
+
                 </div>
             </div>
         </div>
-    </main>
+    </div>
 
     <script src="assets/js/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

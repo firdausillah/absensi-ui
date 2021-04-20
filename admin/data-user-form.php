@@ -32,12 +32,6 @@
                             <input type="password" name="password" class="form-control" id="inputPassword4" placeholder="Password">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="mb-3 col-md-6">
-                            <label class="form-label" for="inputGambar">Gambar</label>
-                            <input type="file" name="gambar" class="form-control" id="inputGambar">
-                        </div>
-                    </div>
                     <a href="#" type="submit" class="btn btn-primary">Submit</a>
                     <a href="data-user.php" class="btn btn-success">Kembali</a>
                 </form>

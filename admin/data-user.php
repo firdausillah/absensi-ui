@@ -12,10 +12,14 @@
                     </div>
                     <div class="col-8">
                         <div class="text-right d-none d-lg-block">
+                            <a href="#" class="btn btn-success"><i class="align-middle mr-2" data-feather="upload"></i>Import</a>
                             <a href="data-user-form.php" class="btn btn-primary"><i class="align-middle mr-2" data-feather="plus-square"></i>Tambah Data</a>
+                            <a href="#" class="btn btn-danger" onclick='Hapus()'><i class="align-middle mr-2" data-feather="delete"></i>Hapus</a>
                         </div>
                         <div class="text-right d-block d-lg-none">
+                            <a href="#" class="btn btn-success btn-sm"><i class="align-middle" data-feather="upload"></i></a>
                             <a href="data-user-form.php" class="btn btn-primary btn-sm"><i class="align-middle" data-feather="plus-square"></i></a>
+                            <a href="#" class="btn btn-danger btn-sm" onclick='Hapus()'><i class="align-middle" data-feather="delete"></i></a>
                         </div>
                     </div>
                 </div>
@@ -24,8 +28,8 @@
                 <table class="table mb-0 table-hover" id="example1">
                     <thead>
                         <tr>
+                            <th scope="col">#</th>
                             <th scope="col">Nama User</th>
-                            <th scope="col">Gambar</th>
                             <th scope="col">Username</th>
                             <th scope="col">Level</th>
                             <th scope="col">Action</th>
@@ -33,8 +37,8 @@
                     </thead>
                     <tbody>
                         <tr>
+                            <th><input type="checkbox" name="checked[]" class="form-check-input"></th>
                             <td>Andi Wijaya</td>
-                            <td><img src="../assets/img/avatars/avatar.jpg" height="60px" alt="../assets/img/avatars/avatar.jpg"></td>
                             <td>andiwijaya</td>
                             <td>Admin</td>
                             <td>
@@ -48,8 +52,8 @@
                             </td>
                         </tr>
                         <tr>
+                            <th><input type="checkbox" name="checked[]" class="form-check-input"></th>
                             <td>Arif Brata</td>
-                            <td><img src="../assets/img/avatars/avatar-2.jpg" height="60px" alt="../assets/img/avatars/avatar-2.jpg"></td>
                             <td>arif123</td>
                             <td>Administrator</td>
                             <td>

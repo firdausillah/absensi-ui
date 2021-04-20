@@ -18,20 +18,12 @@
             <hr class="my-0">
             <div class="card-body bg-light">
                 <h5 class="h6 card-title">Absensi Bulan ini</h5>
-                <div class="row">
-                    <div class="col-6">
+                <div class="row justify-content-center">
+                    <div class="col-12">
                         <div class="card bg-white">
                             <div class="card-body text-center">
                                 <h5 class="card-title font-weight-bold">Hadir</h5>
-                                <span class="badge bg-success">15</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="card bg-white">
-                            <div class="card-body text-center">
-                                <h5 class="card-title font-weight-bold">Alfa</h5>
-                                <span class="badge bg-dark">15</span>
+                                <span class="badge bg-success">23</span>
                             </div>
                         </div>
                     </div>
@@ -50,6 +42,24 @@
                             <div class="card-body text-center">
                                 <h5 class="card-title font-weight-bold">Sakit</h5>
                                 <span class="badge bg-warning">2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="card bg-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title font-weight-bold">Telat</h5>
+                                <span class="badge bg-secondary">3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="card bg-white">
+                            <div class="card-body text-center">
+                                <h5 class="card-title font-weight-bold">Alfa</h5>
+                                <span class="badge bg-dark">15</span>
                             </div>
                         </div>
                     </div>
